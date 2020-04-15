@@ -8,7 +8,7 @@ class Home extends Component {
 			<div className={'container ' + Styles.home__container}>
 				<div className={Styles.home__presentation}>
 					<h1 className='text-warning mb-5'>Memory Books</h1>
-					<p className='lead mb-4'>
+					<p className='lead mb-4 text-white'>
 						Je m'appel&nbsp;
 						<span className='text-info'>Alain Guillon</span> et je
 						vous souhaite la bienvenue sur ce site.&nbsp;
@@ -18,7 +18,7 @@ class Home extends Component {
 						<br />
 						<br />
 						<span className='text-muted'>
-							Après tout, si je peux contribuer à vous apprendre
+							Mais aussi, si je peux contribuer à vous apprendre
 							quelques petites choses, j'en serais plus que ravi.
 							A titre perso, j'ai pour phylosophie le partage.
 							Pour moi le savoir ne sert strictement à rien si il

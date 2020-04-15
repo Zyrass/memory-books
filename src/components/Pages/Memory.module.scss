@@ -1,0 +1,8 @@
+@import '../../index.css';
+
+.memory__container {
+	background-color: var(--dark);
+	min-height: 1700px;
+	max-width: 100vw;
+	box-shadow: 0 50px 500px 0 #000 inset;
+}
