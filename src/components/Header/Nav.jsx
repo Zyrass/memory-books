@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import Styles from './Nav.module.scss';
 
 const Nav = () => {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+		<nav className={'navbar navbar-expand-lg navbar-dark ' + Styles.dark}>
 			<div className='container'>
 				<Link to='/' className='navbar-brand text-warning'>
 					Memory-books
@@ -35,7 +36,7 @@ const Nav = () => {
 								activeClassName='active'
 								className='nav-link'
 							>
-								Mémoire
+								Mes mémoires
 							</NavLink>
 						</li>
 						<li className='nav-item'>
